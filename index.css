@@ -1,0 +1,141 @@
+.sidenav {
+  height: 90%;
+  width: 23%;
+  position: fixed;
+  top: 5%;
+  left: 75%;
+  background-color: #111;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border-width: 1px;
+  overflow-x: hidden;
+  padding-top: 10px;
+  box-shadow: 10px 10px 5px black;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+}
+
+.whiteboardvideo{
+  position: absolute;
+  border-radius: 25px;
+  height: 90%;
+  width: 90%;
+  top: 5%;
+  left: 7%;
+  
+
+}
+.professorvideo{
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+  border-radius: 25px;
+}
+
+img.a{
+  width:90%;
+  height:90%;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  border-radius: 25px;
+ 
+  
+  
+
+}
+
+
+
+
+
+.topnav{
+  height: 38%;
+  width: 41%;
+  background-color: #111;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  box-shadow: 10px 10px 5px black;
+  position: fixed;
+  border-radius: 25px;
+  top: 5%;
+  left: 33%;
+
+}
+
+@media screen and (max-height: 450px) {
+  .topnav {padding-top: 15px;}
+}
+.bottomnav{
+  height: 11%;
+  width: 72%;
+  background-color: #111;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 25px;
+  position: fixed;
+  top: 85%;
+  left: 2%;
+
+}
+@media screen and (max-height: 450px) {
+  .bottomnav {padding-top: 15px;}
+}
+
+
+
+nav {
+  float: left;
+  position: fixed;
+  top: 5%;
+  left: 2%;
+  width: 30%;
+  height: 78%; /* only for demonstration, should be removed */
+  background-color: #111;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 5px black;
+  border-width: 1px;
+  
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  position: fixed;
+  top: 45%;
+  left: 33%;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 25px;
+  width: 41%;
+  background-color: #111;
+  height: 38%; /* only for demonstration, should be removed */
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+  
+
+}
